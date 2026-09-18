@@ -10,7 +10,7 @@ body {
   line-height: 1.6;
 }
 
-/* ===== Navigation ===== */
+/* nav */
 nav {
   background: white;
   border-bottom: 1px solid #ddd;
@@ -36,7 +36,7 @@ nav a:hover {
   color: #2a9d8f;
 }
 
-/* ===== Hero ===== */
+/* hero */
 #home {
   text-align: center;
   padding: 80px 20px;
@@ -69,7 +69,7 @@ nav a:hover {
   background: #21867a;
 }
 
-/* ===== Sections ===== */
+/* sect */
 section {
   padding: 50px 20px;
 }
@@ -89,7 +89,7 @@ section h2 {
   margin: 0 auto;
 }
 
-/* ===== About ===== */
+/* za men */
 #about p {
   max-width: 600px;
   margin: 0 auto;
@@ -97,7 +97,7 @@ section h2 {
   color: #555;
 }
 
-/* ===== Skills ===== */
+/* umeniq */
 #skills ul {
   list-style: none;
   max-width: 400px;
@@ -112,7 +112,7 @@ section h2 {
   margin-bottom: 10px;
 }
 
-/* ===== Projects ===== */
+/* proekti */
 .cards {
   display: flex;
   gap: 20px;
@@ -142,7 +142,7 @@ section h2 {
   text-decoration: none;
 }
 
-/* ===== Contact ===== */
+/* vruzki */
 #contact {
   text-align: center;
 }
@@ -152,7 +152,7 @@ section h2 {
   font-weight: bold;
 }
 
-/* ===== Footer ===== */
+/* naj dolu */
 footer {
   background: #333;
   color: white;
@@ -164,7 +164,7 @@ footer a {
   color: #2a9d8f;
 }
 
-/* Mobile: stack project cards */
+/* ako e po maluk ekrana promeni podredbata */
 @media (max-width: 600px) {
   .cards {
     flex-direction: column;
